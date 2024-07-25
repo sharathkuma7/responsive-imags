@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>img rep</title>
+
+    <style>
+        .image-container {
+  width: 100%;
+  max-width: 400px; /* Set a maximum width for the image container */
+  margin: 20px auto; /* Center the image container */
+}
+
+.responsive-image {
+  width: 100%; /* Make the image responsive */
+  height: auto; /* Maintain the aspect ratio */
+  border-radius: 10px; /* Add a border radius for a rounded corner effect */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Add a box shadow for depth */
+}
+
+/* Media query for smaller screens */
+@media (max-width: 768px) {
+  .image-container {
+    max-width: 300px; /* Reduce the maximum width for smaller screens */
+  }
+}
+
+/* Media query for even smaller screens */
+@media (max-width: 480px) {
+  .image-container {
+    max-width: 200px; /* Reduce the maximum width for even smaller screens */
+  }
+}
+    </style>
+</head>
+<body>
+    <div class="image-container">
+        <img src="./Ganesh-Chaturthi.jpg" alt="Image 1" class="responsive-image">
+      </div>
+      <div class="image-container">
+        <img src="./Ganesh-Chaturthi.jpg"alt="Image 2" class="responsive-image">
+      </div>
+      <div class="image-container">
+        <img src="./Ganesh-Chaturthi.jpg"alt="Image 3" class="responsive-image">
+      </div>
+      <div class="image-container">
+        <img src="./Ganesh-Chaturthi.jpg"alt="Image 4" class="responsive-image">
+      </div>
+    
+</body>
+</html>
+
+
+
+
